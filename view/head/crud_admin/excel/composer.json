@@ -1,0 +1,12 @@
+{
+    "name": "oscar/excel",
+    "description": "trabajoHTML",
+    "autoload": {
+        "psr-4": {
+            "Oscar\\Excel\\": "src/"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.28"
+    }
+}

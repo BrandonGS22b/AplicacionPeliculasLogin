@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url(../iconos/fondo/aska.jpg);
+    background-color: rgba(0, 0, 0, 0.658);
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padre{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.671);
+    border: solid 1px white;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+    
+}
+
+.button input[type="button"]{
+    width: 70%;
+    height: 55px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    background-color: #FAE3D9;
+    font-style: initial;
+    border: solid 1px red;
+    border-radius: 20px;
+}
+
+.button h1{
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+.button h3{
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+.button input[type="button"]:hover{
+    background-color: aqua;
+
+}
+
+
+
